@@ -2,7 +2,7 @@
 
 - Backend engineer, learner
 - Java / Python
-- 🎮 Gaming · 🏃 Sports
+- 📚 Reading · 🎮 Gaming · 📷 Photography · ✈️ Travel
 
 ## 🖥️ Recently Activity
 
