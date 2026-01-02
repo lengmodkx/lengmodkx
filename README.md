@@ -7,8 +7,8 @@
 ## 🖥️ Recently Activity
 
 <!--START_SECTION:activity-->
-1. ❗ Opened issue [#1](https://github.com/cxhello/daily-bot/issues/1) in [cxhello/daily-bot](https://github.com/cxhello/daily-bot)
-2. ❗ Opened issue [#1](https://github.com/lengmodkx/supply/issues/1) in [lengmodkx/supply](https://github.com/lengmodkx/supply)
+1. ❗ Opened issue [#2](https://github.com/lengmodkx/lemonBlog/issues/2) in [lengmodkx/lemonBlog](https://github.com/lengmodkx/lemonBlog)
+2. ❗ Opened issue [#2](https://github.com/lengmodkx/TrendRadar/issues/2) in [lengmodkx/TrendRadar](https://github.com/lengmodkx/TrendRadar)
 <!--END_SECTION:activity-->
 
 ## 📊 GitHub Stats
