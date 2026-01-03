@@ -21,7 +21,7 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
-          MAX_LINES: 6
+          MAX_LINES: 10
 
       - name: Generate stats card
         uses: readme-tools/github-readme-stats-action@v1
