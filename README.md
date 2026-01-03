@@ -7,8 +7,8 @@
 ## 🖥️ Recently Activity
 
 <!--START_SECTION:activity-->
-1. ❗ Opened issue [#2](https://github.com/lengmodkx/lemonBlog/issues/2) in [lengmodkx/lemonBlog](https://github.com/lengmodkx/lemonBlog)
-2. ❗ Opened issue [#2](https://github.com/lengmodkx/TrendRadar/issues/2) in [lengmodkx/TrendRadar](https://github.com/lengmodkx/TrendRadar)
+1. 🔒 Closed issue [#2](https://github.com/lengmodkx/lemonBlog/issues/2) in [lengmodkx/lemonBlog](https://github.com/lengmodkx/lemonBlog)
+2. ❗ Opened issue [#2](https://github.com/lengmodkx/lemonBlog/issues/2) in [lengmodkx/lemonBlog](https://github.com/lengmodkx/lemonBlog)
 <!--END_SECTION:activity-->
 
 ## 📊 GitHub Stats
