@@ -86,6 +86,8 @@ Tested `Readme-Workflows/recent-activity` with versions:
 
 **Issue**: PushEvent displays "undefined commit(s)" instead of actual commit count
 
+**Issue Link**: [#351](https://github.com/Readme-Workflows/recent-activity/issues/351)
+
 **Evidence**:
 ```
 ⬤  debug     63 events found for lengmodkx.
@@ -119,7 +121,7 @@ But fails to:
 
 ### Next Steps
 
-1. Issue submitted to Readme-Workflows/recent-activity repository
+1. ✅ Issue submitted: [#351](https://github.com/Readme-Workflows/recent-activity/issues/351)
 2. Monitor for bug fix in future releases
 3. Consider alternative solutions if needed in future
 
