@@ -30,4 +30,4 @@ texts:
   pullRequestReviewComment: "commented on a pull request review in"
   push: "pushed to"
   release: "released"
-  watch: "starred"
+  star: "starred"
