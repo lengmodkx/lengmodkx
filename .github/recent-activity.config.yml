@@ -1,0 +1,33 @@
+# recent-activity configuration
+
+# Username to fetch activity for
+user: lengmodkx
+
+# Maximum number of lines to show in README
+maxLines: 10
+
+# Events to disable (remove events you don't want to show)
+disabled:
+  # - IssueCommentEvent
+  # - IssuesEvent
+  # - PullRequestEvent
+  # - ReleaseEvent
+  # - WatchEvent
+
+# Custom text for events (optional)
+# This is completely optional, you can remove the entire section if not needed
+texts:
+  commitComment: "commented on a commit"
+  createEvent: "created"
+  deleteEvent: "deleted"
+  forkEvent: "forked"
+  gollumEvent: "updated the wiki of"
+  issueComment: "commented on an issue in"
+  issues: "opened an issue in"
+  memberEvent: "was added to"
+  pullRequest: "opened a pull request in"
+  pullRequestReview: "reviewed a pull request in"
+  pullRequestReviewComment: "commented on a pull request review in"
+  push: "pushed to"
+  release: "released"
+  watch: "starred"
