@@ -2,7 +2,7 @@
 
 **Date**: 2025-01-06
 **Author**: Claude Code
-**Status**: Approved
+**Status**: On Hold (Bug Found)
 
 ## Overview
 
@@ -71,3 +71,63 @@ If commit activity is frequent, consider increasing to `15` or `20` to ensure ot
 - [Readme-Workflows/recent-activity](https://github.com/Readme-Workflows/recent-activity)
 - [Setup Wiki](https://github.com/Readme-Workflows/recent-activity/wiki)
 - [jamesgeorge007/github-activity-readme](https://github.com/jamesgeorge007/github-activity-readme)
+
+---
+
+## Testing Results (2025-01-06)
+
+### Attempted Implementation
+
+Tested `Readme-Workflows/recent-activity` with versions:
+- `@v2.4.1` - Failed due to missing full version tag
+- `@main` - Ran successfully but with display bug
+
+### Bug Discovered
+
+**Issue**: PushEvent displays "undefined commit(s)" instead of actual commit count
+
+**Evidence**:
+```
+⬤  debug     63 events found for lengmodkx.
+[
+  '⬆️ Pushed undefined commit(s) to [lengmodkx/lengmodkx](https://github.com/lengmodkx/lengmodkx)',
+  '⬆️ Pushed undefined commit(s) to [lengmodkx/claude-skills](https://github.com/lengmodkx/claude-skills)',
+  ...
+]
+```
+
+The action successfully:
+- ✅ Finds PushEvent entries
+- ✅ Displays commit records from all repositories
+- ✅ Shows repository links
+
+But fails to:
+- ❌ Extract/display actual commit count (shows "undefined" instead)
+
+### Configuration Issues
+
+1. `MAX_LINES` parameter is deprecated in v2.4.1+
+2. Action requires `CONFIG_FILE` with specific format
+3. Default config file path caused errors when file didn't exist
+
+### Resolution
+
+**Reverted to original action** (`jamesgeorge007/github-activity-readme@master`) due to:
+- Display bug making commit records look unprofessional
+- Unstable configuration requirements
+- Need for reliable daily automation
+
+### Next Steps
+
+1. Issue submitted to Readme-Workflows/recent-activity repository
+2. Monitor for bug fix in future releases
+3. Consider alternative solutions if needed in future
+
+### Commits
+
+- `8426cee` - feat: add commit activity to profile README
+- `b2b1306` - fix: use correct action version v2.4.1
+- `567239b` - fix: add config file for recent-activity action
+- `d637d44` - fix: use main branch for latest code with commit count fix
+- `bc00768` - fix: update config text keys for recent-activity
+- `767bd24` - revert: switch back to original github-activity-readme action
