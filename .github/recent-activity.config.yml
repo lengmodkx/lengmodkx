@@ -1,5 +1,16 @@
 settings:
   max_lines: 10
+  whitelisted_events:
+    - pr_open      # 打开 Pull Request
+    - pr_merge     # 合并 Pull Request
+    - pr_close     # 关闭 Pull Request
+    - star         # Star 仓库
+    - fork         # Fork 仓库
+    - issues_open  # 打开 Issue
+    - issues_close # 关闭 Issue
+    - release      # 发布 Release
+    - create_repo  # 创建仓库
+    - review       # 审查 PR
 
 messages:
   push: "⬆️ Pushed to {REPO}"
