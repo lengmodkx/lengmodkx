@@ -22,6 +22,7 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           MAX_LINES: 10
+          FILTER_EVENTS: PushEvent,CreateEvent,DeleteEvent,WatchEvent,ForkEvent,IssueCommentEvent,IssuesEvent,PullRequestEvent,ReleaseEvent
 
       - name: Generate stats card
         uses: readme-tools/github-readme-stats-action@v1
