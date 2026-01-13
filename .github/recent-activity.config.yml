@@ -1,5 +1,5 @@
 settings:
-  max_lines: 10
+  max_lines: 20
   whitelisted_events:
     - pr_open      # 打开 Pull Request
     - pr_merge     # 合并 Pull Request
