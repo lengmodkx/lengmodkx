@@ -1,0 +1,13 @@
+# GitHub Recent Activity 配置文件
+
+# 最大显示条数
+MAX_LINES: 10
+
+# 排除的事件类型（可选）
+# FILTER:
+#   - WatchEvent
+#   - ForkEvent
+
+# 排除的仓库（可选）
+# EXCLUDED_REPOS:
+#   - lengmodkx/lengmodkx
