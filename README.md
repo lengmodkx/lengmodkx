@@ -7,8 +7,8 @@
 ## 🖥️ Recently Activity
 
 <!--START_SECTION:activity-->
-1. 🗣 Commented on [#441](https://github.com/farion1231/cc-switch/issues/441#issuecomment-3721943523) in [farion1231/cc-switch](https://github.com/farion1231/cc-switch)
-2. ❗ Opened issue [#351](https://github.com/Readme-Workflows/recent-activity/issues/351) in [Readme-Workflows/recent-activity](https://github.com/Readme-Workflows/recent-activity)
+1. 🎉 Merged PR [#1](https://github.com/lengmodkx/opencode/pull/1) in [lengmodkx/opencode](https://github.com/lengmodkx/opencode)
+2. 💪 Opened PR [#1](https://github.com/lengmodkx/opencode/pull/1) in [lengmodkx/opencode](https://github.com/lengmodkx/opencode)
 <!--END_SECTION:activity-->
 
 ## 📊 GitHub Stats
