@@ -22,7 +22,6 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           GH_USERNAME: ${{ github.repository_owner }}
-          CONFIG_FILE: .github/recent-activity.config.yml
 
       - name: Generate stats card
         uses: readme-tools/github-readme-stats-action@v1
