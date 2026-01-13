@@ -7,9 +7,9 @@
 ## 🖥️ Recently Activity
 
 <!--START_SECTION:activity-->
-1. 🔱 Forked [lengmodkx/opencode](https://github.com/lengmodkx/opencode) from [anomalyco/opencode](https://github.com/anomalyco/opencode)<br>
-2. 🔱 Forked [lengmodkx/TrendRadar](https://github.com/lengmodkx/TrendRadar) from [sansan0/TrendRadar](https://github.com/sansan0/TrendRadar)<br>
-3. 🔱 Forked [lengmodkx/Go](https://github.com/lengmodkx/Go) from [xinliangnote/Go](https://github.com/xinliangnote/Go)<br>
+1. 🎉 Merged PR [#8116](https://github.com/anomalyco/opencode/pull/8116) in [anomalyco/opencode](https://github.com/anomalyco/opencode)
+2. 💪 Opened PR [#8116](https://github.com/anomalyco/opencode/pull/8116) in [anomalyco/opencode](https://github.com/anomalyco/opencode)
+3. 🎉 Merged PR [#1](https://github.com/lengmodkx/opencode/pull/1) in [lengmodkx/opencode](https://github.com/lengmodkx/opencode)
 <!--END_SECTION:activity-->
 
 ## 📊 GitHub Stats
