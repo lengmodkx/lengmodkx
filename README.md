@@ -7,8 +7,8 @@
 ## 🖥️ Recently Activity
 
 <!--START_SECTION:activity-->
-1. 🚀 Published release [v1.0.1 Release](https://github.com/lengmodkx/screenshot-client/releases/tag/v1.0.1) in [lengmodkx/screenshot-client](https://github.com/lengmodkx/screenshot-client)
-2. 💪 Opened PR [#1](https://github.com/lengmodkx/task-manager/pull/1) in [lengmodkx/task-manager](https://github.com/lengmodkx/task-manager)
+1. 🚀 Published release [v1.0.2](https://github.com/lengmodkx/screenshot-client/releases/tag/v1.0.2) in [lengmodkx/screenshot-client](https://github.com/lengmodkx/screenshot-client)
+2. 🚀 Published release [v1.0.1 Release](https://github.com/lengmodkx/screenshot-client/releases/tag/v1.0.1) in [lengmodkx/screenshot-client](https://github.com/lengmodkx/screenshot-client)
 3. 🎉 Merged PR [#8116](https://github.com/anomalyco/opencode/pull/8116) in [anomalyco/opencode](https://github.com/anomalyco/opencode)
 <!--END_SECTION:activity-->
 
