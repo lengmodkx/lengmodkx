@@ -7,9 +7,9 @@
 ## 🖥️ Recently Activity
 
 <!--START_SECTION:activity-->
-1. 🚀 Published release [v1.4.1 - Token 过期自动刷新](https://github.com/lengmodkx/screenshot-client/releases/tag/v1.4.1) in [lengmodkx/screenshot-client](https://github.com/lengmodkx/screenshot-client)
-2. 🚀 Published release [v1.4.0 - 软件使用监控与后台运行](https://github.com/lengmodkx/screenshot-client/releases/tag/v1.4.0) in [lengmodkx/screenshot-client](https://github.com/lengmodkx/screenshot-client)
-3. 🎉 Merged PR [#3](https://github.com/lengmodkx/screenshot-client/pull/3) in [lengmodkx/screenshot-client](https://github.com/lengmodkx/screenshot-client)
+1. 🚀 Published release [v1.4.2](https://github.com/lengmodkx/screenshot-client/releases/tag/v1.4.2) in [lengmodkx/screenshot-client](https://github.com/lengmodkx/screenshot-client)
+2. 🚀 Published release [v1.4.1 - Token 过期自动刷新](https://github.com/lengmodkx/screenshot-client/releases/tag/v1.4.1) in [lengmodkx/screenshot-client](https://github.com/lengmodkx/screenshot-client)
+3. 🚀 Published release [v1.4.0 - 软件使用监控与后台运行](https://github.com/lengmodkx/screenshot-client/releases/tag/v1.4.0) in [lengmodkx/screenshot-client](https://github.com/lengmodkx/screenshot-client)
 <!--END_SECTION:activity-->
 
 ## 📊 GitHub Stats
