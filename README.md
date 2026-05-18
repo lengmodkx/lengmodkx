@@ -7,9 +7,9 @@
 ## 🖥️ Recently Activity
 
 <!--START_SECTION:activity-->
-1. 🚀 Published release [v1.0.0 - MVP 首次发布](https://github.com/lengmodkx/share-compoter/releases/tag/v1.0.0) in [lengmodkx/share-compoter](https://github.com/lengmodkx/share-compoter)
-2. 🔒 Closed issue [#2261](https://github.com/rustfs/rustfs/issues/2261) in [rustfs/rustfs](https://github.com/rustfs/rustfs)
-3. 🗣 Commented on [#2261](https://github.com/rustfs/rustfs/issues/2261#issuecomment-4116456026) in [rustfs/rustfs](https://github.com/rustfs/rustfs)
+1. ❗ Opened issue [#15173](https://github.com/alibaba/nacos/issues/15173) in [alibaba/nacos](https://github.com/alibaba/nacos)
+2. ❗ Opened issue [#15172](https://github.com/alibaba/nacos/issues/15172) in [alibaba/nacos](https://github.com/alibaba/nacos)
+3. ❗ Opened issue [#15171](https://github.com/alibaba/nacos/issues/15171) in [alibaba/nacos](https://github.com/alibaba/nacos)
 <!--END_SECTION:activity-->
 
 ## 📊 GitHub Stats
