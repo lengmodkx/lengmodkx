@@ -7,9 +7,9 @@
 ## 🖥️ Recently Activity
 
 <!--START_SECTION:activity-->
-1. 🎉 Merged PR [#1](https://github.com/lengmodkx/omr-demo/pull/1) in [lengmodkx/omr-demo](https://github.com/lengmodkx/omr-demo)
-2. 💪 Opened PR [#1](https://github.com/lengmodkx/omr-demo/pull/1) in [lengmodkx/omr-demo](https://github.com/lengmodkx/omr-demo)
-3. 🔒 Closed issue [#15173](https://github.com/alibaba/nacos/issues/15173) in [alibaba/nacos](https://github.com/alibaba/nacos)
+1. ❗ Opened issue [#422](https://github.com/colbymchenry/codegraph/issues/422) in [colbymchenry/codegraph](https://github.com/colbymchenry/codegraph)
+2. 🎉 Merged PR [#1](https://github.com/lengmodkx/omr-demo/pull/1) in [lengmodkx/omr-demo](https://github.com/lengmodkx/omr-demo)
+3. 💪 Opened PR [#1](https://github.com/lengmodkx/omr-demo/pull/1) in [lengmodkx/omr-demo](https://github.com/lengmodkx/omr-demo)
 <!--END_SECTION:activity-->
 
 ## 📊 GitHub Stats
