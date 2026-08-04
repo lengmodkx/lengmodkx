@@ -7,9 +7,9 @@
 ## 🖥️ Recently Activity
 
 <!--START_SECTION:activity-->
-1. 🚀 Published release [v1.0.1](https://github.com/lengmodkx/reco_smile/releases/tag/v1.0.1) in [lengmodkx/reco_smile](https://github.com/lengmodkx/reco_smile)
-2. 🚀 Published release [V1.0](https://github.com/lengmodkx/reco_smile/releases/tag/v1.0) in [lengmodkx/reco_smile](https://github.com/lengmodkx/reco_smile)
-3. 🗣 Commented on [#13584](https://github.com/apache/dubbo/issues/13584#issuecomment-4881470203) in [apache/dubbo](https://github.com/apache/dubbo)
+1. 🎉 Merged PR [#11](https://github.com/lengmodkx/omr-service-streamlit/pull/11) in [lengmodkx/omr-service-streamlit](https://github.com/lengmodkx/omr-service-streamlit)
+2. 💪 Opened PR [#11](https://github.com/lengmodkx/omr-service-streamlit/pull/11) in [lengmodkx/omr-service-streamlit](https://github.com/lengmodkx/omr-service-streamlit)
+3. 🚀 Published release [v1.0.1](https://github.com/lengmodkx/reco_smile/releases/tag/v1.0.1) in [lengmodkx/reco_smile](https://github.com/lengmodkx/reco_smile)
 <!--END_SECTION:activity-->
 
 ## 📊 GitHub Stats
