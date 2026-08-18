@@ -27,7 +27,7 @@ def fmt(event):
     r = repo_link(repo)
 
     if t == "PushEvent":
-        return f"⬆️ Pushed to {r}"
+        return None
     if t == "PullRequestEvent":
         n = p.get("number")
         url = f"https://github.com/{repo}/pull/{n}"
@@ -56,8 +56,7 @@ def fmt(event):
             return f"📔 Created new repository {r}"
         return None
     if t == "ForkEvent":
-        fork = (p.get("forkee") or {}).get("full_name")
-        return f"🔱 Forked {repo_link(fork)} from {r}" if fork else None
+        return None
     if t == "ReleaseEvent":
         rel = p.get("release") or {}
         name = rel.get("name") or rel.get("tag_name")
