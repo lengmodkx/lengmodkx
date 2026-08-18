@@ -21,11 +21,9 @@
 
 ## 📊 GitHub Stats
 
+<a href="https://gitfut.com/lengmodkx"><img align="right" src="https://gitfut.com/lengmodkx.png" width="240" alt="GitFut player card"></a>
+
 ![Stats](./profile/stats.svg)
 ![Top Languages](./profile/top-langs.svg)
-
-## 🎮 FIFA Player Card
-
-[![GitFut Card](https://img.shields.io/badge/GitFut-View%20My%20Card-39d353?style=for-the-badge&logo=fifa&logoColor=white)](https://gitfut.com/lengmodkx)
 
 GitHub 贡献数据 → FIFA 球员卡风格,由 [gitfut.com](https://github.com/Younesfdj/gitfut) 生成。
