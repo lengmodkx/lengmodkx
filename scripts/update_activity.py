@@ -68,16 +68,30 @@ def main():
     username = os.environ.get("GH_USERNAME") or os.environ["GITHUB_REPOSITORY_OWNER"]
     token = os.environ.get("GITHUB_TOKEN")
 
-    req = urllib.request.Request(
-        f"https://api.github.com/users/{username}/events/public?per_page=100",
-        headers={
-            "Accept": "application/vnd.github+json",
-            "User-Agent": "recent-activity-updater",
-            **({"Authorization": f"Bearer {token}"} if token else {}),
-        },
-    )
-    with urllib.request.urlopen(req) as resp:
-        events = json.load(resp)
+    headers = {
+        "Accept": "application/vnd.github+json",
+        "User-Agent": "recent-activity-updater",
+    }
+    if token:
+        headers["Authorization"] = f"Bearer {token}"
+
+    # Paginate up to 3 pages (300 events) so that filtering out
+    # star / push / fork still leaves enough entries to fill MAX_LINES.
+    # The Events API caps a single user at the most recent 300 events.
+    events = []
+    for page in range(1, 4):
+        url = (
+            f"https://api.github.com/users/{username}/events/public"
+            f"?per_page=100&page={page}"
+        )
+        req = urllib.request.Request(url, headers=headers)
+        with urllib.request.urlopen(req) as resp:
+            page_events = json.load(resp)
+        if not page_events:
+            break
+        events.extend(page_events)
+        if len(events) >= MAX_LINES * 3:
+            break
 
     lines = []
     for event in events:
