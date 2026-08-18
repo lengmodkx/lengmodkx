@@ -58,8 +58,6 @@ def fmt(event):
     if t == "ForkEvent":
         fork = (p.get("forkee") or {}).get("full_name")
         return f"🔱 Forked {repo_link(fork)} from {r}" if fork else None
-    if t == "WatchEvent":
-        return f"⭐ Starred {r}"
     if t == "ReleaseEvent":
         rel = p.get("release") or {}
         name = rel.get("name") or rel.get("tag_name")
