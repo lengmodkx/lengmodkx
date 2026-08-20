@@ -14,9 +14,6 @@
 
 ## 🎮 Space Shooter Game
 
-> 把我的 GitHub 贡献图变成 Galaga 风格的小游戏 —— 贡献越多敌人越强，每天 00:15 UTC 自动刷新。
-> 由 [czl9707/gh-space-shooter](https://github.com/czl9707/gh-space-shooter) 驱动。
-
 ![Space Shooter Game](./profile/game.webp)
 
 ## 📊 GitHub Stats
