@@ -1,0 +1,40 @@
+name: Update Space Shooter Game
+
+on:
+  schedule:
+    # Daily at midnight UTC, slightly offset from update-readme.yml to avoid
+    # racing on the same bot commit identity.
+    - cron: '15 0 * * *'
+  workflow_dispatch:  # Allow manual trigger from the Actions tab
+
+permissions:
+  contents: write
+
+jobs:
+  update-game:
+    runs-on: ubuntu-latest
+    name: Update space shooter animation
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          # fetch-depth: 2 is required by gh-space-shooter@v2 so it can
+          # amend the previous commit instead of creating a new one
+          # (keeps the repository history from bloating with daily bot commits).
+          fetch-depth: 2
+
+      - name: Generate space shooter game
+        uses: czl9707/gh-space-shooter@v2
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          username: ${{ github.repository_owner }}
+          # WebP is dramatically smaller than GIF for the same animation.
+          output-path: 'profile/game.webp'
+          # Enemy attack pattern: column | row | random
+          strategy: 'random'
+          # Lower fps keeps the file size reasonable while staying smooth.
+          fps: 25
+          # Distinct commit message so the action's amend logic
+          # groups all space-shooter-only commits together.
+          commit-message: '🎮 Update space shooter game'
