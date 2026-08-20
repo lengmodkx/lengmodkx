@@ -18,7 +18,5 @@
 
 ## 📊 GitHub Stats
 
-<a href="https://gitfut.com/lengmodkx"><img align="right" src="https://gitfut.com/lengmodkx.png" width="240" alt="GitFut player card"></a>
-
 ![Stats](./profile/stats.svg)
 ![Top Languages](./profile/top-langs.svg)
