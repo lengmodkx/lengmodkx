@@ -35,6 +35,10 @@ jobs:
           strategy: 'random'
           # Lower fps keeps the file size reasonable while staying smooth.
           fps: 25
-          # Distinct commit message so the action's amend logic
-          # groups all space-shooter-only commits together.
+          # Disable V2's amend behavior. By default the action tries to
+          # amend a previous "🎮 Update space shooter game" commit, which
+          # fails on the first run (no history to amend) and silently
+          # prevents the file from being committed. no-amend forces a
+          # brand-new commit every time, which is safer for a fresh setup.
+          no-amend: 'true'
           commit-message: '🎮 Update space shooter game'
