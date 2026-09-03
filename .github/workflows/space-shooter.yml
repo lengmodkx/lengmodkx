@@ -24,6 +24,19 @@ jobs:
           # (keeps the repository history from bloating with daily bot commits).
           fetch-depth: 2
 
+      - name: Sync local main to remote
+        # The gh-space-shooter@v2 action commits and pushes internally
+        # using whatever HEAD was current at checkout time. If anything
+        # else (e.g. the daily update-readme.yml bot) pushes to main
+        # between checkout and push, the action's push gets rejected
+        # with "fetch first". Pulling + rebasing here puts the action's
+        # working base on top of the latest remote main, so its push
+        # always lands on the current tip.
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git pull --rebase origin main
+
       - name: Generate space shooter game
         uses: czl9707/gh-space-shooter@v2
         with:
