@@ -55,3 +55,28 @@ jobs:
           # brand-new commit every time, which is safer for a fresh setup.
           no-amend: 'true'
           commit-message: '🎮 Update space shooter game'
+
+      - name: Retry push on race condition
+        # The gh-space-shooter@v2 action does its own commit+push using
+        # whatever HEAD it saw at startup. If another workflow (e.g.
+        # update-readme.yml) lands a commit between our rebase (step 2)
+        # and the action's push, the action fails with "fetch first".
+        # This step catches that: re-pull + rebase + push, up to 3 times.
+        if: failure()
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          for i in 1 2 3; do
+            echo "Retry attempt $i / 3"
+            git pull --rebase --autostash origin main || git pull --rebase origin main
+            if git push origin main; then
+              echo "✅ Pushed successfully on retry $i"
+              exit 0
+            fi
+            echo "Retry $i failed, waiting 5s before next attempt..."
+            sleep 5
+          done
+
+          echo "❌ Push failed after 3 retries"
+          exit 1
