@@ -52,18 +52,13 @@ jobs:
 
       - name: Sync to Gitee
         env:
-          GITEE_RSA_PRIVATE_KEY: ${{ secrets.GITEE_RSA_PRIVATE_KEY }}
+          GITEE_TOKEN: ${{ secrets.GITEE_TOKEN }}
         run: |
-          mkdir -p ~/.ssh
-          echo "$GITEE_RSA_PRIVATE_KEY" > ~/.ssh/id_rsa
-          chmod 600 ~/.ssh/id_rsa
-          ssh-keyscan -H gitee.com >> ~/.ssh/known_hosts 2>/dev/null
-
           git config user.name "lengmodkx"
           git config user.email "lengmodkx@users.noreply.gitee.com"
 
           git remote remove gitee 2>/dev/null || true
-          git remote add gitee "git@gitee.com:lengmodkx/lengmodkx.git"
+          git remote add gitee "https://x-access-token:${GITEE_TOKEN}@gitee.com/lengmodkx/lengmodkx.git"
           git push gitee HEAD:main --force
 
       - name: Verify Gitee sync
