@@ -15,8 +15,6 @@ jobs:
 
     steps:
       - uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
 
       - name: Generate github activity
         run: python scripts/update_activity.py
@@ -49,19 +47,3 @@ jobs:
           git add profile/*.svg README.md
           git commit -m "⚡ Update README with recent activity" || exit 0
           git push
-
-      - name: Sync to Gitee
-        env:
-          GITEE_TOKEN: ${{ secrets.GITEE_TOKEN }}
-        run: |
-          git config user.name "lengmodkx"
-          git config user.email "lengmodkx@users.noreply.gitee.com"
-
-          git remote remove gitee 2>/dev/null || true
-          git remote add gitee "https://lengmodkx:${GITEE_TOKEN}@gitee.com/lengmodkx/lengmodkx.git"
-          git push gitee HEAD:main --force
-
-      - name: Verify Gitee sync
-        if: always()
-        run: |
-          echo "✅ Gitee sync step finished. Check: https://gitee.com/lengmodkx/lengmodkx"
