@@ -58,7 +58,7 @@ jobs:
           git config user.email "lengmodkx@users.noreply.gitee.com"
 
           git remote remove gitee 2>/dev/null || true
-          git remote add gitee "https://x-access-token:${GITEE_TOKEN}@gitee.com/lengmodkx/lengmodkx.git"
+          git remote add gitee "https://lengmodkx:${GITEE_TOKEN}@gitee.com/lengmodkx/lengmodkx.git"
           git push gitee HEAD:main --force
 
       - name: Verify Gitee sync
